@@ -20,5 +20,4 @@ class Employee:
 empl = Employee('Industries Co.', 'manager')
 arthur = User('stepanka', empl.position, empl.department)
 
-for empl in empls:
-    print(empl.name, empl.salary)
+print(arthur.name, arthur.department, arthur.position)
