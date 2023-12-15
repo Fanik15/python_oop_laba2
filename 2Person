@@ -1,0 +1,11 @@
+class Person:
+    def __init__(self, name, age, gender):
+        self.name = name
+        self.age = age
+        self.gender = gender
+    def print_info(self):
+        print(f"Имя: {self.name}, Возраст: {self.age}, Пол: {self.gender}")
+person1 = Person("Иван", 25, "Муж")
+person2 = Person("Антон", 30, "Муж")
+person1.print_info()
+person2.print_info()
